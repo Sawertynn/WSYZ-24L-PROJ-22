@@ -1,0 +1,6 @@
+set VEGETABLES;
+set PRODUCERS;
+set MAGAZINES;
+set SHOPS;
+
+
