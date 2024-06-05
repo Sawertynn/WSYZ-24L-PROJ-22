@@ -1,0 +1,7 @@
+reset;
+model projekt.mod;
+data projekt.dat;
+option solver cplex;
+option display_width 150;
+solve;
+display roczny_transport_do_magazynow, tygodniowy_transport_do_sklepow,tygodniowy_zapas_w_sklepach, Calkowity_Koszt;
